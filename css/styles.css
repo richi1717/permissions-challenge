@@ -1,0 +1,61 @@
+/****************************************
+  Reset
+*****************************************/
+
+html {
+	color: black;
+	font-family: 'Open Sans', Arial;
+}
+* {
+	box-sizing: border-box;
+	color: inherit;
+	font-family: inherit;
+	font-size: inherit;
+}
+html, body { height: 100%; padding: 0; margin: 0; }
+body { min-height: 100%; }
+img { border: 0; }
+a:focus, a:active, button:focus {
+	outline: 0;
+}
+
+
+/****************************************
+  Defaults
+*****************************************/
+
+a {
+	color: #2E9AC2;
+	text-decoration: none;
+}
+
+button {
+	background-color: white;
+	border-radius: 5px;
+	border: 2px solid purple;
+	color: purple;
+	padding: 5px 15px;
+}
+
+
+
+/****************************************
+  Structure
+*****************************************/
+
+body {
+	background: white;
+}
+
+main {
+	width: 600px;
+	margin: 0 auto;
+}
+
+li {
+	color: purple;
+}
+
+.permis {
+	color: green;
+}
